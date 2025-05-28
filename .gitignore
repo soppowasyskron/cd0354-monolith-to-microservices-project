@@ -18,6 +18,7 @@ npm-debug.log*
 .sass-cache/
 .tmp/
 .versions/
+.udagram-frondend/.angular/cache/
 coverage/
 www/
 node_modules/
@@ -40,3 +41,5 @@ venv/
 .elasticbeanstalk/*
 !.elasticbeanstalk/*.cfg.yml
 !.elasticbeanstalk/*.global.yml
+set_env.sh
+/udagram-frontend/.angular
