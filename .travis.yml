@@ -16,7 +16,7 @@ before_script:
 script:
   - docker --version # print the version for logging
   - docker build -t udagram-api-feed ./udagram-api-feed
-  - docker tag udagram-api-feed simonoppowa959/udagram-api-feed
+  - docker tag udagram-api-feed simonoppowa273/udagram-api-feed
   
 
 
@@ -28,4 +28,4 @@ script:
 # Tasks to perform after the process is successful. Formatting the Docker username and password as below enables you to programmatically log in without having the password exposed in logs.
 after_success:
   - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin
-  - docker push simonoppowa959/udagram-api-feed
+  - docker push simonoppowa273/udagram-api-feed
