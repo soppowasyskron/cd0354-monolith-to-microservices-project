@@ -17,6 +17,7 @@ script:
   - docker --version # print the version for logging
   - docker build -t udagram-api-feed ./udagram-api-feed
   - docker tag udagram-api-feed simonoppowa959/udagram-api-feed
+  
 
   
 
